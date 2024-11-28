@@ -1,0 +1,103 @@
+/* css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#000000;
+    color: #fff;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular profile image */
+    display: block;
+    margin: 0 auto 20px auto; /* Center the image */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #eaeaea;
+}
+#personal-information {
+    margin: 20px 0;
+}
+
+#personal-information h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#personal-information p {
+    margin: 5px 0;
+}
+#contact-info {
+    margin: 20px 0;
+}
+
+#contact-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+#contact-info a {
+    color: #0077b5; /* LinkedIn Blue */
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
+
